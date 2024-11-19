@@ -10,6 +10,6 @@ def calculate(list):
   e=(np.max(a,axis=0),np.max(a,axis=1),np.max(a))
   f=(np.min(a,axis=0),np.min(a,axis=1),np.min(a))
   g=(np.sum(a,axis=0),np.sum(a,axis=1),np.sum(a))
-  calculations={  'mean': [b],'variance': [c],'standard deviation': [d],'max': [e],'min': [f],'sum': [g] }
-  return calculations
+  results={  'mean': [b],'variance': [c],'standard deviation': [d],'max': [e],'min': [f],'sum': [g] }
+  return results
 print(calculate([0,1,2,3,5,4,9,8,6]))

@@ -1,11 +1,11 @@
 import pandas as pd
 
     
-df = pd.read_csv("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\adult.data.csv")
+df = pd.read_csv(r"C:\Users\LUCIA\Downloads\adult.data.csv")
 
 print(df.head()) # Viewed a part of the data
 print(df.info()) # Viewed the structure of the data
-print(df.columns) # Looked at the columns
+print(df.columns) # Looks at the columns
 print(df.describe()) # Viewed the statistical properties of the data
 print(df.shape) # Checked the count of rows and columns
 
